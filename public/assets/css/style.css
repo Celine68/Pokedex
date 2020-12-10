@@ -1,0 +1,175 @@
+:root{
+    --color-theme: #C14040;
+    --color-them-second: #982C2C;
+    --border-radius: 25px;
+}
+
+body {
+    background-color: var(--color-theme);
+    color: white;
+    font-family: 'Bree Serif', serif!important;
+    padding: 1rem;
+}
+
+header {
+    background-color: white;
+    border-radius: var(--border-radius);
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+header li {
+    display: inline-block;
+    padding: 0 0.3rem;
+}
+
+header a {
+    color: var(--color-theme);
+    text-decoration: none;
+}
+
+header h1 {
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+.pokemon {
+    display: inline-block;
+    width: 33%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.pokemon-simple {
+    background-color: var(--color-them-second);
+    margin: 0;
+    padding: 1rem;
+    border-radius: var(--border-radius);
+}
+
+.pokemon-simple img {
+    width:100%;
+}
+
+.pokemon-simple figcaption {
+    text-align: center;
+}
+
+.pokemon-simple a, .pokemon-type a, footer a, .types-list a {
+    color: white;
+    text-decoration: none;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.pokemon-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pokemon-image {
+    width: 40%;
+    padding: 1rem;
+}
+
+.pokemon-image img {
+    width: 100%;
+}
+
+.details-div {
+    background-color: var(--color-them-second);
+    width: 60%;
+    padding: 1rem;
+    border-radius: 10px;
+    height: fit-content;
+    padding-bottom: 2rem;
+}
+
+.pokemon-type li {
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+.stat-bar{
+    height: 20px;
+    padding: 0;
+    font-size: 0;
+    width: 70%
+}
+
+.bar-fill {
+    border-radius: 5px 0 0 5px;
+    background-color: white;
+}
+
+.bar-rest {
+    border-radius: 0 5px 5px 0;
+    background-color: #632B2B;
+}
+
+.bar-fill, .bar-rest{
+    height: 100%;
+    display: inline-block;
+    padding:0;
+    margin:0
+}
+
+.stat-number {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 15%;
+}
+
+.stat-name {
+    width: 15%;
+}
+
+.stat {
+    padding-bottom: 0.4rem;
+}
+
+footer {
+    text-align: center;
+}
+
+a:hover {
+    color: #632B2B;
+}
+
+.types-list li {
+    display: inline-block;
+    width: 24.7%;
+    padding: 0.3rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pokemon-simple a, .types-list a {
+    display: block;
+}
+
+.types-list {
+    padding-left: 0;
+}
+
+.types-list a {
+    border-radius: 5px;
+    padding: 1rem;
+}
