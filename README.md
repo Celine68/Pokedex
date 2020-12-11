@@ -32,5 +32,5 @@ Création d'un pokedex en modèle MVC sans framework
 
 ## Crédits
 
-Code 100% perso.
+Code 100% perso, mais avec utilisation du bundle altorouter.
 Visuel réalisé en m'inspirant d'une image de rendu final.
