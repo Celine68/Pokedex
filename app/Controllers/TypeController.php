@@ -16,9 +16,12 @@ class TypeController extends CoreController
 
     public function type($params) {
         $pokemon = new Pokemon();
+        $type = new Type();
+        $typeName = $type->find($params['id'])->getName();
 
         $this->show('index', [
             'pokemons' => $pokemon->findAllFromType($params['id']),
+            'title' => "Pokémons de type " . $typeName,
         ]);
     }
 }

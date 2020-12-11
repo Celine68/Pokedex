@@ -12,6 +12,7 @@ class MainController extends CoreController
 
         $this->show('index', [
             'pokemons' => $pokemon->findAll(),
+            'title' => "Liste des pokémons",
         ]);
     }
     

@@ -18,6 +18,16 @@ class Type extends CoreModel
         return (Database::getPDO()->query($sql)->fetchAll(\PDO::FETCH_CLASS, Type::class));
     }
 
+    public function find($id)
+    {
+        $sql = '
+            SELECT *
+            FROM type
+            WHERE type.id = ' . $id
+            ;
+        return (Database::getPDO()->query($sql)->fetchObject(Type::class));
+    }
+
     /**
      * Get the value of name
      */ 

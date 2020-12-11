@@ -1,3 +1,5 @@
+<h2><?=$title?></h2>
+
 <?php foreach ($pokemons as $pokemon) { ?>
 <div class="pokemon">
     <figure class="pokemon-simple">
