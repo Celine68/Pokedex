@@ -10,7 +10,7 @@ Création d'un pokedex en modèle MVC sans framework
 
 - Créer un fichier `app/config.ini` contenant les informations sur votre base de données.
 
-- Tapper la commande `$ composer install` dans le terminal à la racine du projet.
+- Taper la commande `$ composer install` dans le terminal à la racine du projet.
 
 ## Captures d'écran du résultat
 
