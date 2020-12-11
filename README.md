@@ -20,12 +20,15 @@ Création d'un pokedex en modèle MVC sans framework
 
 ### Détail d'un pokémon
 
+![IMG](https://github.com/Celine68/Pokedex/blob/main/docs/preview/pokemon-detail.png?raw=true)
 
-### Liste des types de pokémon
+### Liste des types de pokémons
 
+![IMG](https://github.com/Celine68/Pokedex/blob/main/docs/preview/types.png?raw=true)
 
 ### Liste des pokémons par type
 
+![IMG](https://github.com/Celine68/Pokedex/blob/main/docs/preview/liste-par-type.png?raw=true)
 
 ## Crédits
 
